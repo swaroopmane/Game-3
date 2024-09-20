@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+#gameArea {
+    margin-bottom: 20px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#goodButton {
+    background-color: #28a745;
+    color: white;
+}
+
+#badButton {
+    background-color: #dc3545;
+    color: white;
+}
+
+#nextButton {
+    background-color: #007bff;
+    color: white;
+    font-size: 18px;
+}
+
+#scoreContainer {
+    margin-bottom: 20px;
+}
+
+#badgeContainer {
+    margin-top: 10px;
+}
+
+.badge {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: gold;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.feedback {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+}
